@@ -26,6 +26,11 @@ This URL sends a request to the DNS(Domain Name Service) server that acts like a
 site is still open, and if it is it connects.
 
 - After being connected to the website, you can now try to request to view a certain part of or information on the website like an article. Before doing this, 
-it must check to see TCP/IP and HTTP. These two things will describe how the request you want to make must be formatted when being sent.
+it must check to see TCP/IP and HTTP. These two things will describe how the request you want to make must be formatted when being sent. 
+These rules require that the responses and requests made must be cut up into packets of data that know the destination IP address. Once they reach that address they will reassemble
+correctly.
 
-- 
+- Once the request you sent for has been chopped up, they travel along going through various routers that check and direct the packets to their correct
+location. On arrival to the Web Server, the packets reassemble and the server looks for the request you made, chop it into packets again, and send it back.
+
+- After it travels all the way back to your browser, it gets reassembled and translated so that it can be displayed correctly on your screen.
