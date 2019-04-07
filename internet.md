@@ -37,6 +37,8 @@ location. On arrival to the Web Server, the packets reassemble and the server lo
 
 - After it travels all the way back to your browser, it gets reassembled and translated so that it can be displayed correctly on your screen.
 
+![howwebworks](img/howwebworks.jpg)
+
 #### SSL secure Website browsing through HTTPS over port 40 vs. HTTP over port 80
 - First off, Secure Sockets Layer is the most widely used cryptographic protocol to provide security over internet communications. It offers people a secure channel between two machines 
 over the internet
@@ -46,6 +48,9 @@ are the two systems communicating this message.
 - The biggest and major difference between these two is that HTTPS is more secure than HTTP because HTTP is subject to having the data being read by someone else who should not be since it is 
 transmitted in plain text.
 - The port 40 and port 80 that that are referred to here only represent the server port generally used by these two. HTTPS tends to use port 443 and HTTP uses port 80.
+
+![http-https](img/http-https.jpg)
+
 
 #### What is REST and who is Roy Fielding?
 - Roy fielding is an American computer scientist and the originator of the Representational State Transfer architectural style
@@ -58,3 +63,5 @@ by all the constraints listed by REST.
     - Self-descriptive messages means that messages should include info about how their payload should be processed and identifies the resource it concerns.
     
 -  REST is important today because of its simplicity, how it uses systems that already exist, and advocates the use of HTTP for achieving objectives. 
+
+![royfielding](img/royfielding.jpg)
