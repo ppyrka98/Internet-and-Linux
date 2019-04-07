@@ -44,3 +44,12 @@ are the two systems communicating this message.
 - The biggest and major difference between these two is that HTTPS is more secure than HTTP because HTTP is subject to having the data being read by someone else who should not be since it is 
 transmitted in plain text.
 - The port 40 and port 80 that that are referred to here only represent the server port generally used by these two. HTTPS tends to use port 443 and HTTP uses port 80.
+
+#### What is REST and who is Roy Fielding?
+- Roy fielding is an American computer scientist and the originator of the Representational State Transfer architectural style
+- REST is the the entire Web's architecture. REST is defined through constraints like Statelessness, Cacheability, Resources and representations, Self-descriptive messages, and a bunch of others.
+
+  **What each constraint means**
+    - Statelessness means that each request must contain all of the information necessary for the server to understand the request and cannot take advantage of stored context on the server.
+    -
+-  
