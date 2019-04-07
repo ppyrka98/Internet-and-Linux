@@ -18,4 +18,14 @@
 Chrome or Safari.
 
 
-- Once it has loaded up, you proceed to type in the URL(Ex:https://www.google.com) for the website you wish to reach.
+- Once it has loaded up, you proceed to type in the URL(Ex:https://www.google.com) for the website you wish to reach. 
+This URL sends a request to the DNS(Domain Name Service) server that acts like a phone book, and searches through its system for the IP address(Ex:199.181.33.61)
+ that will send you to that page. 
+
+- Now that the IP was found, the browser tries to create a connection to the web server by opening up a socket connection, which is like the web browser checking if the
+site is still open, and if it is it connects.
+
+- After being connected to the website, you can now try to request to view a certain part of or information on the website like an article. Before doing this, 
+it must check to see TCP/IP and HTTP. These two things will describe how the request you want to make must be formatted when being sent.
+
+- 
