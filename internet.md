@@ -47,11 +47,12 @@ transmitted in plain text.
 
 #### What is REST and who is Roy Fielding?
 - Roy fielding is an American computer scientist and the originator of the Representational State Transfer architectural style
-- REST is the the entire Web's architecture. REST is defined through constraints like Statelessness, Cacheability, Self-descriptive messages, and a bunch of others.
+- REST is the the entire Web's architecture. REST is defined through constraints like Statelessness, Cacheability, Self-descriptive messages, and a bunch of others. In order for something to be RESTful, it must abide
+by all the constraints listed by REST.
 
   **What the constraints mean**
     - Statelessness means that each request must contain all of the information necessary for the server to understand the request and cannot take advantage of stored context on the server.
     - Cacheability means that if a response is marked cacheable, the client is allowed to reuse the data for later requests.
     - Self-descriptive messages means that messages should include info about how their payload should be processed and identifies the resource it concerns.
     
--  
+-  REST is important today because of its simplicity, how it uses systems that already exist, and advocates the use of HTTP for achieving objectives. 
