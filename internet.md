@@ -43,7 +43,7 @@ location. On arrival to the Web Server, the packets reassemble and the server lo
 - First off, Secure Sockets Layer is the most widely used cryptographic protocol to provide security over internet communications. It offers people a secure channel between two machines 
 over the internet
 - HTTP is used for unencrypted communication, and means that anyone can intercept the data and be able to read what it says.
-- HTTPS is encrypted communication using SSL, and means that the transferred data must be decrypted in our to be read. The only people really able to decrypt and encrypt the data
+- HTTPS is encrypted communication using SSL, and means that the transferred data must be decrypted in order to be read. The only people really able to decrypt and encrypt the data
 are the two systems communicating this message.
 - The biggest and major difference between these two is that HTTPS is more secure than HTTP because HTTP is subject to having the data being read by someone else who should not be since it is 
 transmitted in plain text.
