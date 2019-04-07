@@ -3,6 +3,7 @@
 #### What is the Internet?
 - In basic terms, it is huge system of networks that are interconnected and that follow certain protocols. 
 
+![internet](img/internet.jpg)
 
 #### How to Read a Web Address
 - Example of web address : https://google.com
@@ -12,6 +13,7 @@
   The final part of the address ".com" represents the top-level domain, which identifies the website's purpose.
   - For further detail, the "www." would be sub domain, "google" would be the second-level domain, and ".com" the top-level domain.
   
+![webaddress](img/webaddress.jpg)
   
 #### How does the Internet Work?
 - First of all, when you want to travel the internet everyone always starts with opening a client application like 
