@@ -1,2 +1,9 @@
 Basic Linux Commands
-Is - directory listing
+ls - directory listing
+ls -al - formatted listing hidden files
+cd dir - change directory to dir
+cd - change to home
+pwd - show current directory
+mkdir dir - create a directory dir
+rm file - delete file
+rm -r dir - delete directory dir
