@@ -34,3 +34,13 @@ correctly.
 location. On arrival to the Web Server, the packets reassemble and the server looks for the request you made, chop it into packets again, and send it back.
 
 - After it travels all the way back to your browser, it gets reassembled and translated so that it can be displayed correctly on your screen.
+
+#### SSL secure Website browsing through HTTPS over port 40 vs. HTTP over port 80
+- First off, Secure Sockets Layer is the most widely used cryptographic protocol to provide security over internet communications. It offers people a secure channel between two machines 
+over the internet
+- HTTP is used for unencrypted communication, and means that anyone can intercept the data and be able to read what it says.
+- HTTPS is encrypted communication using SSL, and means that the transferred data must be decrypted in our to be read. The only people really able to decrypt and encrypt the data
+are the two systems communicating this message.
+- The biggest and major difference between these two is that HTTPS is more secure than HTTP because HTTP is subject to having the data being read by someone else who should not be since it is 
+transmitted in plain text.
+- The port 40 and port 80 that that are referred to here only represent the server port generally used by these two. HTTPS tends to use port 443 and HTTP uses port 80.
