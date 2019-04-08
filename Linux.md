@@ -5,9 +5,21 @@ on a little-used PDP-7. The operating system was soon named Unix, a pun on an ea
 MULTICS. In 1972-1973 the system was rewritten in the programming language C, an unusual step that was visionary. Due 
 to this decision, Unix was the first widely-used operating system that could switch from and outlive its original 
 hardware. Other innovations were added to Unix as well, in part due to synergies between Bell Labs and the academic 
-community. In 1979, the “seventh edition” (V7) version of Unix was released, the grandfather of all extant Unix systems.
+community. In 1979, the “seventh edition” (V7) version of Unix was released, the grandfather of all Unix systems.
  
- 
+ ![unix](img/unix.jpg)
+
+In 1984 Richard Stallman’s Free Software Foundation (FSF) began the GNU project, a project to create a free version of 
+the Unix operating system. By free, Stallman meant software that could be freely used, read, modified, and redistributed.
+The FSF successfully built a vast number of useful components, including a C compiler (gcc), an impressive text editor (emacs),
+and a host of fundamental tools. However, in the 1990’s the FSF was having trouble developing the operating system kernel
+and without a kernel their dream of a completely free operating system would not be realized.
+
+In 1991 Linus Torvalds began developing an operating system kernel, which he named “Linux”. This kernel could be combined
+with the FSF material and other components (in particular some of the BSD components and MIT’s X-windows software) to 
+produce a freely-modifiable and very useful operating system. Linux is one of the most prominent examples of free and 
+open-source software collaboration. The source code may be used, modified and distributed by anyone under the terms of 
+its respective licenses.
 
 ##Basic Linux Commands
 ls - directory listing
