@@ -21,6 +21,10 @@ produce a freely-modifiable and very useful operating system. Linux is one of th
 open-source software collaboration. The source code may be used, modified and distributed by anyone under the terms of 
 its respective licenses.
 
+####Ubuntu
+Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.
+https://www.ubuntu.com/
+
 ##Basic Linux Commands
 ls - directory listing
 
