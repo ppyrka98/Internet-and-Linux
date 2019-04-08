@@ -223,3 +223,6 @@ Password:
 The group ownership of a file or directory may be changed with chgrp. This command is used like this:
 
 [me@linuxbox me]$ chgrp new_group some_file
+
+In the example above, we changed the group ownership of some_file from its previous group to "new_group". You must be the
+owner of the file or directory to perform a chgrp
