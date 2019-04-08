@@ -110,3 +110,10 @@ an entire line of text.
  this warning.
  
  ![vi4](img/vi4.png) 
+ 
+ #Secure Shell/Secure Socket Shell(SSH) 
+ SSH is a network protocol that gives users, particularly system administrators, a secure way to access a computer over
+ an unsecured network. SSH also refers to the suite of utilities that implement the SSH protocol. Secure Shell provides 
+ strong authentication and encrypted data communications between two computers connecting over an open network such as 
+ the internet. SSH is widely used by network administrators for managing systems and applications remotely, allowing 
+ them to log into another computer over a network, execute commands and move files from one computer to another.
