@@ -44,7 +44,7 @@ The $ sign means you are logged into your Linux server and at the command prompt
 
 From this point, you can simply type in the command and press enter.
 
-This are some basic navigating commands
+###This are some basic navigating commands
 
 $ pwd - Use this command to find out where you are in the directory structure. When you log on to Linux, your starting
         directory is always your home directory, so you'll be in /home/[your username] as any other user than root, or
@@ -75,6 +75,20 @@ $ ls/home/[username] - In this case, the directory specified has its contents li
 Vi is a powerful text editor included with most Linux systems, even embedded ones. Sometimes you’ll have to edit a text
 file on a system that doesn’t include a friendlier text editor, so knowing Vi is essential
 
+#####Command mode
 - This is what you’ll see when you open a file in vi. It looks like you can just start typing, but you can’t. Vi is a
  modal text editor, and it opens in command mode. Trying to type at this screen will result in unexpected behavior.
+ 
+ ![vi1](img/vi1.png)
+ 
+While in command mode, you can move the cursor around with the arrow keys. Press the x key to delete the character
+under the cursor. There are a variety of other delete commands — for example, typing dd (press the d key twice) deletes
+an entire line of text.
+ 
+ You can select, copy, cut and paste text in command mode. Position the cursor at the left or right side of the text 
+ you want to copy and press the v key. Move your cursor to select text, and then press y to copy the selected text or x
+ to cut it. Position your cursor at the desired location and press the p key to paste the text you copied or cut.
+ 
+ ![vi2](img/vi2.png)
+ 
  
