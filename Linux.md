@@ -169,4 +169,10 @@ an entire line of text.
  vulnerability can exist when local access is granted - - that is file permission based issues resulting from a user not
  assigning the correct permissions to files and directories. Proper permissions are needed.
  
+ #### File permission commands
+ - chmod - modify file access rights
+ - su - temporarily become the superuser
+ - sudo - temporarily become the superuser
+ - chown - change file ownership
+ - chgrp - change a file's group ownership
     
