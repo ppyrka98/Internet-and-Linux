@@ -1,4 +1,4 @@
-#Origins of Unix and Linux
+# Origins of Unix and Linux
 
 In 1969-1970, Kenneth Thompson, Dennis Ritchie, and others at AT&T Bell Labs began developing a small operating system
 on a little-used PDP-7. The operating system was soon named Unix, a pun on an earlier operating system project called 
@@ -21,11 +21,11 @@ produce a freely-modifiable and very useful operating system. Linux is one of th
 open-source software collaboration. The source code may be used, modified and distributed by anyone under the terms of 
 its respective licenses.
 
-####Ubuntu
+#### Ubuntu
 Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.
 https://www.ubuntu.com/
 
-##Basic Linux Commands
+## Basic Linux Commands
 ls - directory listing
 
 ls -al - formatted listing hidden files
@@ -66,12 +66,12 @@ tail file - output the last 10 lines of file
 
 tail -f file - output the contents of file as it grows, starting with the last 10 lines.
 
-##How to navigate the directory structure
+## How to navigate the directory structure
 The $ sign means you are logged into your Linux server and at the command prompt.
 
 From this point, you can simply type in the command and press enter.
 
-###This are some basic navigating commands
+### This are some basic navigating commands
 
 $ pwd - Use this command to find out where you are in the directory structure. When you log on to Linux, your starting
         directory is always your home directory, so you'll be in /home/[your username] as any other user than root, or
@@ -97,12 +97,12 @@ $ ls - This is the list command, so that you can view the contents of a director
 $ ls/home/[username] - In this case, the directory specified has its contents listed.  The directory reference
                        can be absolute or relative.
 
-###Editing a file with Vi
+### Editing a file with Vi
 
 Vi is a powerful text editor included with most Linux systems, even embedded ones. Sometimes you’ll have to edit a text
 file on a system that doesn’t include a friendlier text editor, so knowing Vi is essential
 
-#####Command mode
+##### Command mode
 - This is what you’ll see when you open a file in vi. It looks like you can just start typing, but you can’t. Vi is a
  modal text editor, and it opens in command mode. Trying to type at this screen will result in unexpected behavior.
  
@@ -118,7 +118,7 @@ an entire line of text.
  
  ![vi2](img/vi2.png)
  
- #####Insert Mode
+ ##### Insert Mode
  Aside from command mode, the other mode you need to know about is insert mode, which allows you to insert text in Vi. 
  Entering insert mode is easy once you know it exists — just press the i key once after you’ve positioned the cursor in
  command mode. Start typing and Vi will insert the characters you type into the file rather than trying to interpret 
@@ -126,7 +126,7 @@ an entire line of text.
  
  ![vi3](img/vi3.png)
  
- #####Saving and Quitting
+ ##### Saving and Quitting
  You can save and quit vi from command mode. First, ensure you’re in command mode by pressing the escape key (pressing 
  the escape key again does nothing if you’re already in command mode.)
  
@@ -138,14 +138,14 @@ an entire line of text.
  
  ![vi4](img/vi4.png) 
  
- #Secure Shell/Secure Socket Shell(SSH) 
+ # Secure Shell/Secure Socket Shell(SSH) 
  SSH is a network protocol that gives users, particularly system administrators, a secure way to access a computer over
  an unsecured network. SSH also refers to the suite of utilities that implement the SSH protocol. Secure Shell provides 
  strong authentication and encrypted data communications between two computers connecting over an open network such as 
  the internet. SSH is widely used by network administrators for managing systems and applications remotely, allowing 
  them to log into another computer over a network, execute commands and move files from one computer to another.
  
- #File Transfer Protocol(FTP)
+ # File Transfer Protocol(FTP)
  FTP is a way to transfer files online.   It’s also one of the oldest protocols in use today, and is a convenient way to
  move files around. An FTP server offers access to a directory, with sub-directories. Users connect to these servers with
  an FTP client, a piece of software that lets you download files from the server, as well as upload files to it.
@@ -155,7 +155,7 @@ an entire line of text.
  
  ![ftp](img/ftp.png) 
  
- #Secure File Transfer Protocol (SFTP)
+ # Secure File Transfer Protocol (SFTP)
  SFTP is a secure way to transfer files between local and remote servers.  It is part of the SSH Protocol.  SFTP was 
  designed by the Internet Engineering Task Force (IETF) as an extended version of SSH 2.0, allowing file transfer over 
  SSH and use with Transport Layer Security (TLS) and VPN applications. Both the commands and data are encrypted in order
@@ -163,3 +163,10 @@ an entire line of text.
   SFTP is similar to that of FTP. However, SFTP uses SSH to transfer files.
   
   ![CompareProtocols](img/CompareProtocols.png)
+  
+  # Linux File Permissions
+ Although there are already a lot of good security features built into Linux-based systems, one very important potential 
+ vulnerability can exist when local access is granted - - that is file permission based issues resulting from a user not
+ assigning the correct permissions to files and directories. Proper permissions are needed.
+ 
+    
