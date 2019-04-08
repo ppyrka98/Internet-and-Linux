@@ -176,3 +176,50 @@ an entire line of text.
  - chown - change file ownership
  - chgrp - change a file's group ownership
     
+ In the diagram below, we see how the first portion of the listing is interpreted. It consists of a character indicating
+ the file type, followed by three sets of three characters that convey the reading, writing and execution permission for
+ the owner, group, and everybody else.
+ 
+ ![rwx](img/rwx.png) 
+ 
+ #### Chmod
+ The chmod command is used to change the permissions of a file or directory. To use it, you specify the desired permission
+ settings and the file or files that you wish to modify. There are two ways to specify the permissions. For this example, 
+ we will focus on the octal notation method.
+  
+  rwx rwx rwx = 111 111 111
+    
+  rwx = 111 in binary = 7
+   
+ Now, if you represent each of the three sets of permissions (owner, group, and other) as a single digit, you have a pretty
+ convenient way of expressing the possible permissions settings. For example, if we wanted to set some_file to have read and 
+ write permission for the owner, but wanted to keep the file private from others, you would:
+ 
+ Directory Permissions
+ The chmod command can also be used to control the access permissions for directories. Again, we can use the octal notation
+  to set permissions, but the meaning of the r, w, and x attributes is different:
+ 
+ r - Allows the contents of the directory to be listed if the x attribute is also set.
+ 
+ w - Allows files within the directory to be created, deleted, or renamed if the x attribute is also set.
+ 
+ x - Allows a directory to be entered (i.e. cd dir).
+  
+ #### Changing File Ownership
+ You can change the owner of a file by using the chown command. Here's an example: Suppose I wanted to change the owner 
+ of some_file from "me" to "you". I could:
+ 
+[me@linuxbox me]$ su
+
+Password:
+
+[root@linuxbox me]# chown you some_file
+
+[root@linuxbox me]# exit
+
+[me@linuxbox me]$
+
+#### Changing Group Ownership
+The group ownership of a file or directory may be changed with chgrp. This command is used like this:
+
+[me@linuxbox me]$ chgrp new_group some_file
