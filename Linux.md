@@ -91,4 +91,22 @@ an entire line of text.
  
  ![vi2](img/vi2.png)
  
+ #####Insert Mode
+ Aside from command mode, the other mode you need to know about is insert mode, which allows you to insert text in Vi. 
+ Entering insert mode is easy once you know it exists — just press the i key once after you’ve positioned the cursor in
+ command mode. Start typing and Vi will insert the characters you type into the file rather than trying to interpret 
+ them as commands.
  
+ ![vi3](img/vi3.png)
+ 
+ #####Saving and Quitting
+ You can save and quit vi from command mode. First, ensure you’re in command mode by pressing the escape key (pressing 
+ the escape key again does nothing if you’re already in command mode.)
+ 
+ Type :wq and press enter to write the file to disk and quit vi. You can also split this command up — for example, 
+ type :w and press enter to write the file to disk without quitting or type :q to quit vi without saving the file.
+ 
+ Vi won’t let you quit if you’ve modified the file since you last saved, but you can type :q! and press enter to ignore
+ this warning.
+ 
+ ![vi4](img/vi4.png) 
