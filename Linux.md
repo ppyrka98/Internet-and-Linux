@@ -1,3 +1,14 @@
+#Origins of Unix and Linux
+
+In 1969-1970, Kenneth Thompson, Dennis Ritchie, and others at AT&T Bell Labs began developing a small operating system
+on a little-used PDP-7. The operating system was soon named Unix, a pun on an earlier operating system project called 
+MULTICS. In 1972-1973 the system was rewritten in the programming language C, an unusual step that was visionary. Due 
+to this decision, Unix was the first widely-used operating system that could switch from and outlive its original 
+hardware. Other innovations were added to Unix as well, in part due to synergies between Bell Labs and the academic 
+community. In 1979, the “seventh edition” (V7) version of Unix was released, the grandfather of all extant Unix systems.
+ 
+ 
+
 ##Basic Linux Commands
 ls - directory listing
 
