@@ -117,3 +117,12 @@ an entire line of text.
  strong authentication and encrypted data communications between two computers connecting over an open network such as 
  the internet. SSH is widely used by network administrators for managing systems and applications remotely, allowing 
  them to log into another computer over a network, execute commands and move files from one computer to another.
+ 
+ #File Transfer Protocol(FTP)
+ FTP is a way to transfer files online.   It’s also one of the oldest protocols in use today, and is a convenient way to
+ move files around. An FTP server offers access to a directory, with sub-directories. Users connect to these servers with
+ an FTP client, a piece of software that lets you download files from the server, as well as upload files to it.
+ 
+ ![ftp](img/ftp.png) 
+ 
+ 
