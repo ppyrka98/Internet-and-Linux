@@ -123,6 +123,16 @@ an entire line of text.
  move files around. An FTP server offers access to a directory, with sub-directories. Users connect to these servers with
  an FTP client, a piece of software that lets you download files from the server, as well as upload files to it.
  
+ Unfortunately, FTP is not secure and transfers are not encrypted, so it is relatively easy to intercept files for anyone
+ capable of packet sniffing.
+ 
  ![ftp](img/ftp.png) 
  
- 
+ #Secure File Transfer Protocol (SFTP)
+ SFTP is a secure way to transfer files between local and remote servers.  It is part of the SSH Protocol.  SFTP was 
+ designed by the Internet Engineering Task Force (IETF) as an extended version of SSH 2.0, allowing file transfer over 
+ SSH and use with Transport Layer Security (TLS) and VPN applications. Both the commands and data are encrypted in order
+  to prevent passwords and other sensitive information from being transferred over the network. The functionality of 
+  SFTP is similar to that of FTP. However, SFTP uses SSH to transfer files.
+  
+  ![CompareProtocols](img/CompareProtocols.png)
